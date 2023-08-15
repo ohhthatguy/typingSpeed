@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box
+}
+
+body{
+    background-color: #317773;
+    padding: 1rem 0rem 0rem 20rem;
+    font-family: "Open Sans", serif;
+}
+
+.container{
+    border: 1px solid black;
+    height: 35rem;
+    width: 35rem;
+    padding: 1rem 2rem ;
+    background-color: #8AAAE5;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px #8AAAE5;
+
+}
+
+.stopwatch{
+
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Open Sans", serif;
+    padding-right: 5rem;
+}
+
+.quotes{
+    border: 1px solid blanchedalmond;
+    height: 13rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 5px 0px #317773;
+}
+
+.stat-wrapper{
+    margin-top: 2rem;
+
+    display: flex;
+    color: white;
+    gap: 1rem;
+    font-family: "Open Sans", serif;
+    font-size: 2rem;
+}
+
+.correct{
+
+    width: 50%;
+    text-align: left;
+    opacity: 0;
+}
+
+.wpm{
+
+    width: 50%; 
+    text-align: center;
+    opacity: 0;
+}
+
+.wpm::before{
+    content: '';
+    position:absolute;
+    background-color: white;
+    width: 1px;
+    height: 5%;
+    left: 37.5rem;
+}
+
+.typee{
+    width: 25rem;
+   border-radius: 8px;
+   
+   margin-right: 1rem;
+    height: 2rem;
+
+    font-family: "Open Sans", serif;
+}
+
+.btn{
+    width: 4rem;
+    height: 3rem;
+    border-radius: 10px;
+
+    color: white;
+    background-color:#128531;
+    font-family: "Open Sans", serif;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(1.04);
+}
+
+.about{
+    margin-top: 0rem;
+    height: 5rem;
+ 
+    color: rgb(90, 24, 24);
+    font-family: "Open Sans", serif;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    
+}
+
